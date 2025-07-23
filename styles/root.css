@@ -1,0 +1,34 @@
+:root {
+  --background-color-white: #FFFFFF;
+  --background-color-gray-light: #f3f3f3;
+  --background-color-gray-medium: #e2e2e2;
+  --background-color-gray-dark: #cacaca;
+  --background-color-green: #6acf67;
+  --background-color-red: #c43030;
+  --background-color-accent: #2777e0;
+  --background-color-accent-dark: #2260b3;
+  --background-color-accent-light: #4792f5;
+
+  --text-color-white: #FFFFFF;
+  --text-color-black: #181818;
+  --text-color-gray-default: #3f3f3f;
+  --text-color-gray-light: #868686;
+  --text-color-accent: #2777e0;
+  --text-color-red: #6e1a1a;
+  --text-color-green: #31722e;
+
+  --border-color-gray: #2c2c2c;
+  --border-color-red: #922121;
+  --border-color-green: #449441;
+  --border-color-accent: #1f65c0;
+
+  --container-width-2xl: 1200px;
+  --container-width-xl: 1024px;
+  --container-width-md: 768px;
+  --container-width-sm: 360px;
+
+  --font-family-texts: "Inter";
+  --font-family-titles: "Roboto";
+
+  --animation-linear-default: .2s linear;
+}
