@@ -1,2 +1,9 @@
+/* add main style files */
 @import url("./root.css");
 @import url("./reset.css");
+
+/* add blocks style file */
+@import url("./blocks/_header.css");
+
+/* add pages style file */
+@import url("./pages/catalog.css");
