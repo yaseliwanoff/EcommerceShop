@@ -1,0 +1,9 @@
+.header__logo {
+  cursor: pointer;
+}
+
+.header__logo img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}

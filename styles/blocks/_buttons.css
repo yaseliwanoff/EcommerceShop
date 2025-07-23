@@ -1,0 +1,22 @@
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  color: var(--text-color-white);
+  padding: 15px 20px;
+  border-radius: 6px;
+  background-color: var(--background-color-accent);
+  transition: var(----animation-linear-default);
+}
+
+.btn-light {
+  color: var(--text-color-gray-light);
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #f5f5f5;
+  transition: var(----animation-linear-default);
+}
