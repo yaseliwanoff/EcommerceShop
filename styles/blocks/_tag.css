@@ -1,0 +1,23 @@
+.tag {
+  font-size: 12px;
+  padding: 5px 10px;
+  color: var(--text-color-gray-light);
+  border-radius: 999px;
+  border: 1px solid var(--background-color-gray-medium);
+}
+
+.not-tag {
+  font-size: 12px;
+  padding: 5px 10px;
+  color: var(--text-color-red);
+  border-radius: 999px;
+  border: 1px solid var(--border-color-red);
+}
+
+.tag-soon {
+  font-size: 12px;
+  padding: 5px 10px;
+  color: var(--text-color-accent);
+  border-radius: 999px;
+  border: 1px solid var(--border-color-accent);
+}
