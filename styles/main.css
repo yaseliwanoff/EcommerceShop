@@ -7,12 +7,14 @@
 @import url("./blocks/_header.css");
 @import url("./blocks/_logo.css");
 @import url("./blocks/_buttons.css");
+@import url("./blocks/_tag.css");
 
 /* add pages style file */
 @import url("./pages/catalog.css");
 
 /* main pages styles */
 html, body {
+  color: var(--text-color-black);
   font-family: var(--font-family-texts);
   font-weight: 400;
   font-size: 15px;
