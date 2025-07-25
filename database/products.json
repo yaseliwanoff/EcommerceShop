@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "name": "Essential Neutrals",
+    "price": 19.99,
+    "availability": "Available",
+    "image1x": "./assets/images/png/product__images/shirt-white__1x.png",
+    "image2x": "./assets/images/png/product__images/shirt-white__2x.png",
+    "detailPage": "/product-detail-page.html"
+  },
+  {
+    "id": 1,
+    "name": "Essential Neutrals",
+    "price": 19.99,
+    "availability": "Available",
+    "image1x": "./assets/images/png/product__images/shirt-white__1x.png",
+    "image2x": "./assets/images/png/product__images/shirt-white__2x.png",
+    "detailPage": "/product-detail-page.html"
+  },
+  {
+    "id": 2,
+    "name": "Essential Neutrals",
+    "price": 19.99,
+    "availability": "Not available",
+    "image1x": "./assets/images/png/product__images/shirt-white__1x.png",
+    "image2x": "./assets/images/png/product__images/shirt-white__2x.png",
+    "detailPage": "/product-detail-page.html"
+  },
+  {
+    "id": 3,
+    "name": "Essential Neutrals",
+    "price": 19.99,
+    "availability": "Coming soon",
+    "image1x": "./assets/images/png/product__images/shirt-white__1x.png",
+    "image2x": "./assets/images/png/product__images/shirt-white__2x.png",
+    "detailPage": "/product-detail-page.html"
+  },
+  {
+    "id": 4,
+    "name": "Essential Neutrals",
+    "price": 19.99,
+    "availability": "Available",
+    "image1x": "./assets/images/png/product__images/shirt-white__1x.png",
+    "image2x": "./assets/images/png/product__images/shirt-white__2x.png",
+    "detailPage": "/product-detail-page.html"
+  },
+  {
+    "id": 5,
+    "name": "Essential Neutrals",
+    "price": 19.99,
+    "availability": "Coming soon",
+    "image1x": "./assets/images/png/product__images/shirt-white__1x.png",
+    "image2x": "./assets/images/png/product__images/shirt-white__2x.png",
+    "detailPage": "/product-detail-page.html"
+  }
+]
