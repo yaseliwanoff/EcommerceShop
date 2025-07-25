@@ -52,116 +52,30 @@
           </div>
         </div>
       </div>
+        <div class="catalog__products--price container">
+          <div class="products__price--wrapper">
+            <p>Total price:</p>
+            <span>$0,00</span>
+          </div>
+        </div>
         <div class="main__wrapper container">
           <aside class="sidebar">
             <h3 class="sidebar__category">Category</h3>
-            <ul class="category__list">
-              <li class="category__list--item active">All</li>
-              <li class="category__list--item">Available</li>
-              <li class="category__list--item">Not available</li>
-              <li class="category__list--item">Coming soon</li>
+            <ul class="category__list" id="category-list">
+              <li class="category__list--item" id="all">All</li>
+              <li class="category__list--item" id="available">Available</li>
+              <li class="category__list--item" id="no-available">Not available</li>
+              <li class="category__list--item" id="coming-soon">Coming soon</li>
             </ul>
           </aside>
-          <div class="products">
-            <a href="/product-detail-page.html" class="product__card--link">
-              <div class="product__card">
-                <div class="product__card--top">
-                  <img src="./assets/images/png/product__images/shirt-white__1x.png" 
-                      srcset="./assets/images/png/product__images/shirt-white__2x.png 2x" 
-                      class="product__image" 
-                      alt="product image">
-                </div>
-                <div class="product__card--bottom">
-                  <span class="tag">Available</span>
-                  <h3 class="product__card--name">Essential Neutrals</h3>
-                  <span class="product__card--price">$19.99</span>
-                  <button class="btn btn-primary">Add to Cart</button>
-                </div>
-              </div>
-            </a>
-            <a href="/product-detail-page.html" class="product__card--link">
-              <div class="product__card">
-                <div class="product__card--top">
-                  <img src="./assets/images/png/product__images/shirt-white__1x.png" 
-                      srcset="./assets/images/png/product__images/shirt-white__2x.png 2x" 
-                      class="product__image" 
-                      alt="product image">
-                </div>
-                <div class="product__card--bottom">
-                  <span class="tag">Available</span>
-                  <h3 class="product__card--name">Essential Neutrals</h3>
-                  <span class="product__card--price">$19.99</span>
-                  <button class="btn btn-primary">Add to Cart</button>
-                </div>
-              </div>
-            </a>
-            <a href="/product-detail-page.html" class="product__card--link disabled">
-              <div class="product__card">
-                <div class="product__card--top">
-                  <img src="./assets/images/png/product__images/shirt-white__1x.png" 
-                      srcset="./assets/images/png/product__images/shirt-white__2x.png 2x" 
-                      class="product__image" 
-                      alt="product image">
-                </div>
-                <div class="product__card--bottom">
-                  <span class="tag not-tag">Not available</span>
-                  <h3 class="product__card--name">Essential Neutrals</h3>
-                  <span class="product__card--price">$19.99</span>
-                  <button class="btn btn-primary btn-disabled">Add to Cart</button>
-                </div>
-              </div>
-            </a>
-            <a href="/product-detail-page.html" class="product__card--link">
-              <div class="product__card">
-                <div class="product__card--top">
-                  <img src="./assets/images/png/product__images/shirt-white__1x.png" 
-                      srcset="./assets/images/png/product__images/shirt-white__2x.png 2x" 
-                      class="product__image" 
-                      alt="product image">
-                </div>
-                <div class="product__card--bottom">
-                  <span class="tag tag-soon">Coming soon</span>
-                  <h3 class="product__card--name">Essential Neutrals</h3>
-                  <span class="product__card--price">$19.99</span>
-                  <button class="btn btn-primary">Add to Cart</button>
-                </div>
-              </div>
-            </a>
-            <a href="/product-detail-page.html" class="product__card--link">
-              <div class="product__card">
-                <div class="product__card--top">
-                  <img src="./assets/images/png/product__images/shirt-white__1x.png" 
-                      srcset="./assets/images/png/product__images/shirt-white__2x.png 2x" 
-                      class="product__image" 
-                      alt="product image">
-                </div>
-                <div class="product__card--bottom">
-                  <span class="tag">Available</span>
-                  <h3 class="product__card--name">Essential Neutrals</h3>
-                  <span class="product__card--price">$19.99</span>
-                  <button class="btn btn-primary">Add to Cart</button>
-                </div>
-              </div>
-            </a>
-            <a href="/product-detail-page.html" class="product__card--link">
-              <div class="product__card">
-                <div class="product__card--top">
-                  <img src="./assets/images/png/product__images/shirt-white__1x.png" 
-                      srcset="./assets/images/png/product__images/shirt-white__2x.png 2x" 
-                      class="product__image" 
-                      alt="product image">
-                </div>
-                <div class="product__card--bottom">
-                  <span class="tag tag-soon">Coming soon</span>
-                  <h3 class="product__card--name">Essential Neutrals</h3>
-                  <span class="product__card--price">$19.99</span>
-                  <button class="btn btn-primary">Add to Cart</button>
-                </div>
-              </div>
-            </a>
+          <div class="products" id="products-container">
+            <!-- Продукты берутся из json файла -->
           </div>
         </div>
     </section>
   </main>
+
+  <script src="./scripts/catalog-products.js"></script>
+  <script src="./scripts/catalog-filters.js"></script>
 </body>
 </html>
