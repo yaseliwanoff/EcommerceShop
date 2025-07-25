@@ -117,3 +117,29 @@
   font-size: 25px;
   margin-bottom: 10px;
 }
+
+.catalog__products--price {
+  display: flex;
+  justify-content: right;
+  align-items: stretch;
+  padding-bottom: 10px;
+}
+
+.products__price--wrapper {
+  cursor: default;
+  min-width: 150px;
+  border: 1px solid rgb(233, 233, 233);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.products__price--wrapper p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.products__price--wrapper span {
+  font-size: 15px;
+  font-weight: 600;
+}
